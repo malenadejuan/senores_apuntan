@@ -8,28 +8,31 @@ html {
   background-color: white;
 }
 
+header {
+  margin: 30px 0;
+  text-align: center;
+}
+
 body {
-  margin: 0 15px;
+  margin: 0;
+  height: 100vh;
   background-color: #aef3e2;
   font-family: 'Open Sans', Calibri;
-  text-align: center;
   font-size: 18px;
 }
 
+.principal {
+  width: 100%;
+  padding: 0 15px;
+}
+
 @media (min-width: 1200px) {
-  body {
-    width: 1140px;
-  }
-  html {
-    display: flex;
-    justify-content: center;
+  .principal {
+    width : 1140px;
+    margin: auto;
   }
 }
 
-.marcar {
-  text-decoration: none;
-  color: black;
-}
 
 h1 {
   font-size:20px;
@@ -37,6 +40,8 @@ h1 {
 }
 
 .marcar {
+  text-decoration: none;
+  color: black;
   font-size: 0.7em;
   margin: 8px;
 }
@@ -60,6 +65,7 @@ li {
   border-radius: 20px;
   border: solid white 1.2px;
   display: flex;
+  width: 100%;
 }
 
 .fotos {
