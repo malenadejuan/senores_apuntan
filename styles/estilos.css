@@ -66,6 +66,13 @@ li {
   border: solid white 1.2px;
   display: flex;
   width: 100%;
+  margin: auto;
+}
+
+@media (min-width: 800px) {
+  .cajas {
+    width: 80%;
+  }
 }
 
 .fotos {
