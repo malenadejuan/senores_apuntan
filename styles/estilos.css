@@ -134,6 +134,11 @@ li > p {
 i {
   color: green;
   position: absolute;
-  margin: 120px 630px;
+  padding: 120px 30px 23px 630px;
+  opacity: 0;
+}
+
+i:hover {
+  opacity: 1;
 }
 
