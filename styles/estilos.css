@@ -93,6 +93,12 @@ li > p {
   border-radius: 50%;
   height: 120px;
   border: solid white 1px;
+  transition: transform 2s;
+  transform: rotateY(0);
+}
+
+.fotos:hover {
+  transform: rotateY(360deg);
 }
 
 .iniciales {
