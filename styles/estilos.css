@@ -7,7 +7,7 @@
 body {
   margin: 0;
   background-color: #aef3e2;
-  font-family: Calibri, 'Trebuchet MS', sans-serif;
+  font-family: Calibri, 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
   text-align: center;
   font-size: 18px;
 }
@@ -25,10 +25,44 @@ li {
   list-style: none;
 }
 
-ul {
-  padding: 0;
+.senores {
+  padding: 0 10px;
+  margin: 12px 0;
+  border-left: dashed white 1px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .cajas {
   background-color: rgb(142, 196, 241);
+  border-radius: 20px;
+  border: solid white 1.2px;
+  display: flex;
 }
+
+.fotos {
+  border-radius: 50%;
+  height: 120px;
+  border: solid white 1px;
+}
+
+.iniciales {
+  background-color: rgb(102, 17, 17);
+  color: white;
+  display: inline-block;
+  border-radius: 50px;
+  height: 1.5em;
+  width: 1.5em;
+}
+
+.datos {
+  display: flex;
+  font-size: 0.8rem;
+}
+
+.nombre {
+  font-size: 1.5rem;
+}
+
