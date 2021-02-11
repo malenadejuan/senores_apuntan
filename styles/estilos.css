@@ -15,21 +15,29 @@ header {
 
 body {
   margin: 0;
-  height: 100vh;
+  height: 100%;
   background-color: #aef3e2;
   font-family: 'Open Sans', Calibri;
   font-size: 18px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .principal {
   width: 100%;
   padding: 0 15px;
+  margin-bottom: 50px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
 }
 
 @media (min-width: 1200px) {
   .principal {
     width : 1140px;
-    margin: auto;
   }
 }
 
@@ -48,16 +56,23 @@ h1 {
 
 li {
   list-style: none;
+  margin: 5px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+}
+
+li > p {
+  width: 50%;
 }
 
 .senores {
-  padding: 0 10px;
-  margin: 12px 0;
-  border-left: dashed white 1px;
   text-align: left;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  padding: 0;
 }
 
 .cajas {
@@ -66,7 +81,7 @@ li {
   border: solid white 1.2px;
   display: flex;
   width: 100%;
-  margin: auto;
+  margin: 30px 0;
 }
 
 @media (min-width: 800px) {
@@ -97,5 +112,11 @@ li {
 
 .nombre {
   font-size: 1.5rem;
+}
+
+.info {
+  border-left: dashed white 1px;
+  margin: 15px 0;
+  padding: 0 10px;
 }
 
