@@ -125,3 +125,9 @@ li > p {
   padding: 0 20px;
 }
 
+i {
+  color: green;
+  position: absolute;
+  margin: 120px 630px;
+}
+
