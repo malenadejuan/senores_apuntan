@@ -97,7 +97,7 @@ li > p {
   transform: rotateY(0);
 }
 
-.fotos:hover {
+.cajas:hover .fotos {
   transform: rotateY(360deg);
 }
 
@@ -132,13 +132,16 @@ li > p {
 }
 
 i {
-  color: green;
+  color: white;
+  background-color: green;
+  font-size: 13px;
+  border-radius: 50%;
+  padding: 5px;
   position: absolute;
-  padding: 120px 30px 23px 630px;
+  margin: 125px 30px 23px 850px;
   opacity: 0;
 }
 
-i:hover {
+.cajas:hover i{
   opacity: 1;
 }
-
